@@ -1,6 +1,6 @@
 # CyberY 🎄
 
-Mooie luxe cybersecurity-website met luxe kerst-sfeer.
+Mooie luxe cybersecurity-website met luxe kerst-sfeer, grote kerstboom met schitterende versiering en kerstballen.
 
 ## Live
 Zet GitHub Pages of Netlify aan op de `main` branch.
