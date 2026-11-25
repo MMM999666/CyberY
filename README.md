@@ -1,12 +1,12 @@
 # CyberY 🎄
 
-Mooie cybersecurity-website met luxe kerst-sfeer.
+Mooie luxe cybersecurity-website met luxe kerst-sfeer.
 
 ## Live
 Zet GitHub Pages of Netlify aan op de `main` branch.
 
 ## Features
-- Sneeuw-effect
+- Sneeuw-effect groot en steren in de univers
 - Luxe Kerst-thema (rood, groen, goud)
 - Luxe design
 - Contactformulier (Netlify Forms)
