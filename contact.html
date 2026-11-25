@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | CyberY</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Cyber<span>Y</span> 🎄</div>
+      <div class="menu-toggle">☰</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#diensten">Diensten</a></li>
+        <li><a href="index.html#over">Over ons</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section style="padding-top: 8rem;">
+    <h2>Neem contact op 🎁</h2>
+    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" style="max-width:500px; margin:0 auto;">
+      <input type="hidden" name="form-name" value="contact" />
+      <p style="display:none;"><label>Don't fill this out: <input name="bot-field" /></label></p>
+
+      <input type="text" name="naam" placeholder="Naam" required style="width:100%; padding:0.9rem; margin-bottom:1rem; background:#1f2937; border:1px solid #374151; border-radius:0.5rem; color:white;" />
+      <input type="email" name="email" placeholder="E-mail" required style="width:100%; padding:0.9rem; margin-bottom:1rem; background:#1f2937; border:1px solid #374151; border-radius:0.5rem; color:white;" />
+      <textarea name="bericht" placeholder="Bericht" rows="6" required style="width:100%; padding:0.9rem; margin-bottom:1rem; background:#1f2937; border:1px solid #374151; border-radius:0.5rem; color:white;"></textarea>
+      <button type="submit" class="btn" style="width:100%;">Verstuur 🎄</button>
+    </form>
+    <p style="text-align:center; margin-top:2rem; color:var(--muted);">Of mail naar: info@cybery.be</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 CyberY. Fijne feestdagen!</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
